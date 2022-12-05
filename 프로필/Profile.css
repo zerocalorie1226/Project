@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #efe7e3;
+}
+.navigator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #9cb8d0;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+#logo-img {
+  width: 70px;
+}
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+#profile-img {
+  width: 400px;
+  margin-right: 60px;
+}
+.introduction > h2 {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+.introduction > p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+
+  margin-bottom: 40px;
+}
+#resorce {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+
+  line-height: 30px;
+}
+.capability {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+  border-radius: 1em;
+}
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  margin-top: 7%;
+}
