@@ -4,12 +4,12 @@ const DiaryItem = ({
   created_date,
   emotion,
   id,
-  onDelete,
+  onRemove,
 }) => {
   return (
     <div className="DiaryItem">
       <div className="info">
-        <span>
+        <span></span>
           작성자 : {author} | 감정 : {emotion}{" "}
         </span>
         <br />
@@ -19,7 +19,7 @@ const DiaryItem = ({
       <button
         onClick={() => {
           if (window.confirm(`${id}번째 일기를 정말 삭제핫기겠습니까?`)) {
-            onDelete(id);
+            onRemove(id);
           }
         }}
       >
